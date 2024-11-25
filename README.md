@@ -3,8 +3,11 @@
 EDGEDjango is a Django-based web application designed for Machine Learning Model Serving. It allows users to upload datasets, build machine learning models, and make predictions using those models. The application leverages Django's built-in authentication system for secure login, logout, and registration.
 
 ---
-# Folder structure
+## Folder Structure
 
+The project follows a standard Django application structure with the following organization:
+
+```plaintext
 EDGEDjango/
 │
 ├── App_login/        # Handles user authentication
@@ -72,4 +75,4 @@ Allows users to:
 **6. Start the development server:**
    python manage.py runserver
    
-8. Open the application in browser at http://127.0.0.1:8000.
+**7.** Open the application in browser at http://127.0.0.1:8000.
