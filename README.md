@@ -7,7 +7,7 @@ EDGEDjango is a Django-based web application designed for Machine Learning Model
 
 The project follows a standard Django application structure with the following organization:
 
-```plaintext
+```
 EDGEDjango/
 │
 ├── App_build/        # Handles dataset upload and model building
@@ -23,7 +23,7 @@ EDGEDjango/
 ├── static/           # Static files (CSS, JS, Images)
 ├── templates/        # HTML templates for the application
 └── requirements.txt  # List of dependencies
-```plaintext
+```
 
 # Features
 
