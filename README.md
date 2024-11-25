@@ -10,12 +10,18 @@ The project follows a standard Django application structure with the following o
 ```plaintext
 EDGEDjango/
 │
-├── App_login/        # Handles user authentication
 ├── App_build/        # Handles dataset upload and model building
+├── App_login/        # Handles user authentication
 ├── App_predict/      # Handles model prediction
-├── templates/        # HTML templates for the application
-├── static/           # Static files (CSS, JS, Images)
+├── db.sqlite3
+├── EDGEDjango/
+    ├── settings.py
+    ├── urls.py
+    ├── views.py
 ├── manage.py         # Django management script
+├── media/            # all uploaded files
+├── static/           # Static files (CSS, JS, Images)
+├── templates/        # HTML templates for the application
 └── requirements.txt  # List of dependencies
 
 ## Features
