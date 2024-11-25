@@ -23,8 +23,9 @@ EDGEDjango/
 ├── static/           # Static files (CSS, JS, Images)
 ├── templates/        # HTML templates for the application
 └── requirements.txt  # List of dependencies
+```plaintext
 
-## Features
+# Features
 
 - **User Authentication**: Built-in Django authentication for login, logout, and user registration.
 - **Dataset Upload**: Users can upload CSV files containing machine learning data.
